@@ -1,11 +1,12 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
+import Layout from "./layouts/layout";
 
 function App() {
   return (
    <>
-   <h1 className="text-success">First </h1>
+   <Layout />
    </>
   );
 }
